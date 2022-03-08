@@ -1,0 +1,13 @@
+div {
+  color: green;
+  font-family: sans-serif;
+}
+
+.highlight {
+  color: red;
+}
+
+strong {
+  /* !important used here to showcase how it overrides the cascade and specificity */
+  color: blue !important;
+}
