@@ -1,0 +1,46 @@
+:root {
+  font-size: 20px;
+}
+
+body {
+	font-family: 'Averia Serif Libre', serif;
+}
+
+.excerpt {
+  margin: 1.25rem auto;
+	padding: 1.25rem;
+	border: 0.06rem solid black;
+	width: 80%;
+	max-width: 30rem;
+	box-sizing: border-box;
+}
+
+.title {
+  font-size: 1.25rem;  /* 20px */
+  margin: 0 0 0.5em; /* 10px */
+}
+
+.quote {
+  margin: 0;
+}
+
+.quote-text {
+  font-size: 1.5rem;  /* 24px */
+	margin: 0.63rem 0; /* 10px */
+}
+
+.large {
+	font-size: 1.5em;
+}
+
+.small {
+	font-size: 0.75em;
+}
+
+.citation {
+  border-top: 0.06rem solid #ccc;
+	margin-top: 1.25rem;
+	padding-top: 1.25rem;
+	color: #555;
+	font-size: 0.88rem;
+}
