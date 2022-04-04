@@ -1,0 +1,168 @@
+/* Fira Sans Thin
+@font-face {
+  font-family: "Fira Sans";
+  src: url("fonts/fira/eot/FiraSans-Thin.eot");
+  src: url("fonts/fira/eot/FiraSans-Thin.eot") format("embedded-opentype"),
+       url("fonts/fira/woff2/FiraSans-Thin.woff2") format("woff2"),
+       url("fonts/fira/woff/FiraSans-Thin.woff") format("woff"),
+       url("fonts/fira/ttf/FiraSans-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Fira Sans";
+  src: url("fonts/fira/eot/FiraSans-ThinItalic.eot");
+  src: url("fonts/fira/eot/FiraSans-ThinItalic.eot") format("embedded-opentype"),
+       url("fonts/fira/woff2/FiraSans-ThinItalic.woff2") format("woff2"),
+       url("fonts/fira/woff/FiraSans-ThinItalic.woff") format("woff"),
+       url("fonts/fira/ttf/FiraSans-ThinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+
+Fira Sans Light
+@font-face {
+  font-family: "Fira Sans";
+  src: url("fonts/fira/eot/FiraSans-Light.eot");
+  src: url("fonts/fira/eot/FiraSans-Light.eot") format("embedded-opentype"),
+       url("fonts/fira/woff2/FiraSans-Light.woff2") format("woff2"),
+       url("fonts/fira/woff/FiraSans-Light.woff") format("woff"),
+       url("fonts/fira/ttf/FiraSans-Light.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Fira Sans";
+  src: url("fonts/fira/eot/FiraSans-LightItalic.eot");
+  src: url("fonts/fira/eot/FiraSans-LightItalic.eot") format("embedded-opentype"),
+       url("fonts/fira/woff2/FiraSans-LightItalic.woff2") format("woff2"),
+       url("fonts/fira/woff/FiraSans-LightItalic.woff") format("woff"),
+       url("fonts/fira/ttf/FiraSans-LightItalic.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+}
+
+Fira Sans Regular
+@font-face {
+  font-family: "Fira Sans";
+  src: url("fonts/fira/eot/FiraSans-Regular.eot");
+  src: url("fonts/fira/eot/FiraSans-Regular.eot") format("embedded-opentype"),
+       url("fonts/fira/woff2/FiraSans-Regular.woff2") format("woff2"),
+       url("fonts/fira/woff/FiraSans-Regular.woff") format("woff"),
+       url("fonts/fira/ttf/FiraSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Fira Sans";
+  src: url("fonts/fira/eot/FiraSans-Italic.eot");
+  src: url("fonts/fira/eot/FiraSans-Italic.eot") format("embedded-opentype"),
+       url("fonts/fira/woff2/FiraSans-Italic.woff2") format("woff2"),
+       url("fonts/fira/woff/FiraSans-Italic.woff") format("woff"),
+       url("fonts/fira/ttf/FiraSans-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+Fira Sans Bold
+@font-face {
+  font-family: "Fira Sans";
+  src: url("fonts/fira/eot/FiraSans-Bold.eot");
+  src: url("fonts/fira/eot/FiraSans-Bold.eot") format("embedded-opentype"),
+       url("fonts/fira/woff2/FiraSans-Bold.woff2") format("woff2"),
+       url("fonts/fira/woff/FiraSans-Bold.woff") format("woff"),
+       url("fonts/fira/ttf/FiraSans-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Fira Sans";
+  src: url("fonts/fira/eot/FiraSans-BoldItalic.eot");
+  src: url("fonts/fira/eot/FiraSans-BoldItalic.eot") format("embedded-opentype"),
+       url("fonts/fira/woff2/FiraSans-BoldItalic.woff2") format("woff2"),
+       url("fonts/fira/woff/FiraSans-BoldItalic.woff") format("woff"),
+       url("fonts/fira/ttf/FiraSans-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+} */
+
+/* Variable font */
+@font-face {
+  font-family: Raleway;
+  src: url("fonts/raleway/Raleway.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 300 800;
+}
+
+@font-face {
+  font-family: Raleway;
+  src: url("fonts/raleway/Raleway-Italic.woff2") format("woff2");
+  font-style: italic;
+  font-weight: 300 800;
+}
+
+body {
+  margin: 0;
+  background-color: hsl(0, 0%, 90%);
+  font-family: Raleway, "PT Sans", Calibri, Tahoma, sans-serif;
+  line-height: 1.5;
+  color: hsl(0, 0%, 10%);
+}
+
+main {
+  margin-bottom: 4rem;
+}
+
+header {
+  margin-bottom: 4rem;
+  border-bottom: 4px solid hsl(30, 90%, 40%);
+  padding: 2rem 0;
+  background-color: hsl(10, 50%, 40%);
+  color: hsl(30, 50%, 90%);
+}
+
+header p {
+  color: hsl(30, 50%, 85%)
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  line-height: 1.25;
+}
+
+h2,
+h3 {
+  color: hsl(10, 50%, 40%);
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 350;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 570;
+}
+
+h3 {
+  font-size: 1.75rem;
+  font-style: italic;
+  font-weight: 450;
+}
+
+p {
+  font-size: 1.13rem;
+}
+
+strong {
+  font-weight: 600;
+}
+
+.content-width {
+  width: calc(100% - 4rem);
+  max-width: 70ch;
+  margin: 0 auto;
+}
