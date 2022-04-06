@@ -1,0 +1,177 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  margin: 0;
+  font: 100% / 1.5 sans-serif;
+  background: url("images/moon-bg.jpg") no-repeat fixed center / cover hsl(0, 0%, 10%);
+}
+
+a {
+  display: inline-block;
+  margin: 0 0 1rem 1rem;
+}
+
+.disclosure {
+  margin: auto;
+  width: 85%;
+  max-width: 48rem;
+  border: 1px solid hsl(0, 0%, 5%);
+  border-radius: 1.5rem;
+  box-shadow:
+    0 0 0.5rem hsl(300, 40%, 5%),
+    0 6rem 4rem -2rem hsl(300, 40%, 5%),
+    0 0.5rem 6rem hsl(200, 40%, 30%),
+    0 0.5rem 10rem hsl(300, 40%, 30%);
+  background-color: hsl(0, 0%, 90%);
+  color: hsl(0, 0%, 20%);
+}
+
+.disclosure__header {
+  border-top: 1px solid hsl(300, 50%, 35%);
+  border-bottom: 1px solid hsl(300, 50%, 5%);
+  border-radius: 1.38rem 1.38rem 0 0;
+  padding: 2rem 0.5rem;
+  background:
+    linear-gradient(
+      hsl(300, 50%, 20%),
+      hsl(300, 50%, 10%)
+    );
+  color: hsl(300, 50%, 95%);
+  text-align: center;
+  text-shadow: 0 0 0.38rem hsl(300, 50%, 50%);
+}
+
+.disclosure__title {
+  margin: 0;
+  font-size: 2rem;
+  line-height: 1.25;
+}
+
+.disclosure__content {
+  margin: 1.5rem;
+}
+
+.legal-contents {
+  height: 50vh;
+  max-height: 20rem;
+  overflow: auto;
+  margin-top: 1.5rem;
+  border: 1px solid;
+  border-top-color: hsl(0, 0%, 65%);
+  border-bottom-color: hsl(0, 0%, 95%);
+  border-right-color: hsl(0, 0%, 80%);
+  border-left-color: hsl(0, 0%, 80%);
+  box-shadow:
+    0 0 0.25rem hsl(0, 0%, 80%) inset,
+    0 4rem 2rem -4rem hsl(0, 0%, 85%) inset,
+    0 -4rem 2rem -4rem hsl(0, 0%, 85%) inset;
+  padding: 0.75rem;
+  background-color: hsl(0, 0%, 95%);
+  font-family: "Times New Roman", serif;
+}
+
+.btn-group {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  display: inline-block;
+  width: 50%;
+  max-width: 8rem;
+  border: 1px solid hsl(200, 100%, 15%);
+  border-radius: 2rem;
+  box-shadow:
+    inset 0 1px hsl(200, 100%, 50%),
+    inset 0 -1px hsl(200, 100%, 15%);
+  padding: 0.5rem 1rem;
+  background: hsl(0, 0%, 10%);
+  background:
+    linear-gradient(
+      to bottom,
+      hsl(200,100%, 30%),
+      hsl(200, 100%, 20%)
+    );
+  color:hsl(0, 0%, 95%);
+  text-align: center;
+  text-decoration: none;
+  text-shadow:
+    0 1px hsl(200, 100%, 50%),
+    0 -1px hsl(200, 100%, 5%);
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:hover,
+.btn:focus {
+  border-color: hsl(200, 100%, 10%);
+  box-shadow:
+    inset 0 1px hsl(200, 100%, 45%),
+    inset 0 -1px hsl(200, 100%, 10%);
+  background:
+    linear-gradient(
+      to bottom,
+      hsl(200,100%, 25%),
+      hsl(200, 100%, 15%)
+    );
+  text-shadow:
+    0 1px hsl(200, 100%, 45%),
+    0 -1px hsl(200, 100%, 0%);
+}
+
+.btn:focus {
+  box-shadow:
+    inset 0 1px hsl(200, 100%, 45%),
+    inset 0 -1px hsl(200, 100%, 10%),
+    0 0 0 0.25rem hsl(200, 100%, 50%);
+}
+
+.btn + .btn {
+  margin-left: 1.5rem;
+}
+
+.btn--secondary {
+  border-color: hsl(200, 10%, 15%);
+  box-shadow:
+    inset 0 1px hsl(200, 10%, 50%),
+    inset 0 -1px hsl(200, 10%, 15%);
+  background:
+    linear-gradient(
+      to bottom,
+      hsl(200, 10%, 30%),
+      hsl(200, 10%, 20%)
+    );
+  text-shadow:
+    0 1px hsl(200, 10%, 50%),
+    0 -1px hsl(200, 10%, 5%);
+}
+
+.btn--secondary:hover,
+.btn--secondary:focus {
+  border-color: hsl(200, 10%, 10%);
+  box-shadow:
+    inset 0 1px hsl(200, 10%, 45%),
+    inset 0 -1px hsl(200, 10%, 10%);
+  background:
+    linear-gradient(
+      to bottom,
+      hsl(200, 10%, 25%),
+      hsl(200, 10%, 15%)
+    );
+  text-shadow:
+    0 1px hsl(200, 10%, 45%),
+    0 -1px hsl(200, 100%, 0%);
+}
+
+.btn--secondary:focus {
+  box-shadow:
+    inset 0 1px hsl(200, 10%, 45%),
+    inset 0 -1px hsl(200, 10%, 10%),
+    0 0 0 0.25rem hsl(200, 10%, 50%);
+}
