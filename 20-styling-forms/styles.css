@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  background-color: hsl(0, 0%, 96%);
+  color: #333;
+  font: 100% / normal sans-serif;
+}
+
+main {
+  margin: 0 auto;
+  padding: 4rem 0;
+  width: 90%;
+  max-width: 60rem;
+}
+
+form {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  border: 4px solid hsl(0, 0%, 90%);
+  border-radius: 1rem;
+  padding: 2rem;
+  background-color: hsl(0, 0%, 100%);
+}
+
+input,
+fieldset,
+legend,
+select,
+textarea,
+button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+input,
+select,
+textarea {
+  border: 2px solid #333;
+  border-radius: 0.25rem;
+  background-color: hsl(0, 0%, 100%);
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px hsl(213, 73%, 70%);
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  font: 1.25rem / 1.5 sans-serif;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  height: 1.5em;
+  width: 1.5em;
+  vertical-align: middle;
+}
+
+input[type="radio"] {
+  border-radius: 50%;
+}
+
+input[type="radio"]:checked {
+  background-image:
+    radial-gradient(
+      hsl(213, 73%, 50%) 40%,
+      transparent calc(40% + 1px)
+    );
+}
+
+input[type="checkbox"]:checked {
+  background: url("images/check.svg") no-repeat center / 75% auto;
+}
+
+input::placeholder,
+textarea::placeholder {
+  opacity: 1; /* Firefox */
+  color: hsl(213, 73%, 50%);
+}
+
+select {
+  background: url("images/down-arrow.svg") no-repeat center right 0.75rem;
+}
+
+textarea {
+  min-height: 10rem;
+}
+
+button {
+  font: 1.25rem sans-serif;
+  border-radius: 0.25rem;
+  padding: 0.75rem 1.25rem;
+  cursor: pointer;
+}
+
+button[type="submit"] {
+  background-color: hsl(213, 73%, 50%);
+  color: hsl(0, 0%, 100%);
+}
+
+button[type="submit"]:hover {
+  background-color: hsl(213, 73%, 40%);
+}
+
+button[type="reset"] {
+  margin-left: 1rem;
+  text-decoration: underline;
+}
+
+button[type="reset"]:hover {
+  text-decoration: none;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px hsl(0, 0%, 0%);
+}
+
+.full-width {
+  grid-column: span 2;
+}
+
+.large-label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  font: bold 1.5rem sans-serif;
+}
+
+.small-label {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 0.25rem;
+  margin-right: 1.5rem;
+  font: 1.25rem sans-serif;
+}
